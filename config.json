@@ -1,0 +1,33 @@
+{
+  "database": {
+    "driver": "",
+    "server": "",
+    "database": "",
+    "uid": "",
+    "pwd": ""
+  },
+  "target": {
+    "root": "D:\\projects\\dayou\\soappull\\input",
+    "fmt": ".csv"
+  },
+  "info":{
+    "p6":{
+      "table":"dbo.HKMCP6",
+      "drop_column":[]
+    },
+    "p7":{
+      "table":"dbo.HKMCP7",
+      "drop_column":[]
+    },
+    "d1":{
+      "table":"dbo.HKMCD1",
+      "drop_column":[]
+    },
+    "d2":{
+      "table":"dbo.HKMCD2",
+      "drop_column":["E", "F", "G", "K", "CQ"]
+    }
+  },
+  "expire": 30,
+  "interval": 30
+}
